@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace GymManagement.Domain.Entities
 {
-    public abstract class BaseEntity
+    public class Campaign : BaseEntity
     {
-        public int Id { get; set; }
-        public bool IsDeleted { get; set; }
-        public DateTime CreatedDate { get; set; }
     }
 }
