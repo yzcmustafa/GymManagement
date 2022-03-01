@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GymManagement.Domain.Entities
 {
-    public abstract class Employee : BaseEntity
+    public abstract class EmployeeDetail : BaseEntity
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }

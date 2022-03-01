@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "GymManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/GymManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GymManagement.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "GymManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../GymManagement.Domain/GymManagement.Domain.csproj",
+      "msbuildProject": "../GymManagement.Domain/GymManagement.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "GymManagement.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ECR_EXCALIBUR_G770\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Domain\\GymManagement.Domain.csproj": {
+              "projectPath": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Domain\\GymManagement.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

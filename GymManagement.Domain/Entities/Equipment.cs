@@ -2,7 +2,7 @@
 
 namespace GymManagement.Domain.Entities
 {
-    public class Equipment
+    public class Equipment : BaseEntity
     {
         public string Name { get; set; }
         public DateTime MaintenancePeriod { get; set; }

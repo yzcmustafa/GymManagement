@@ -4,14 +4,72 @@
     "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj": {
+    "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Application\\GymManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj",
-        "projectName": "GymManagement.Infrastructure",
-        "projectPath": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Application\\GymManagement.Application.csproj",
+        "projectName": "GymManagement.Application",
+        "projectPath": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Application\\GymManagement.Application.csproj",
         "packagesPath": "C:\\Users\\ECR_EXCALIBUR_G770\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ECR_EXCALIBUR_G770\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Domain\\GymManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Domain\\GymManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Domain\\GymManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Domain\\GymManagement.Domain.csproj",
+        "projectName": "GymManagement.Domain",
+        "projectPath": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Domain\\GymManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\ECR_EXCALIBUR_G770\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ECR_EXCALIBUR_G770\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +97,70 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj",
+        "projectName": "GymManagement.Infrastructure",
+        "projectPath": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ECR_EXCALIBUR_G770\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ECR_EXCALIBUR_G770\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Application\\GymManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Application\\GymManagement.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
