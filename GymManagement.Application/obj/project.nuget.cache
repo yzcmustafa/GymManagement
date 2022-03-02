@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "KpYhyrPCm071TCdWMB0+zPMwsBfp/49/fkdPp9PsVRdcgrV9ce/TH9q6xk2PxYyXG57N3fnHIp/9hbh1DXKRng==",
+  "dgSpecHash": "/9BgPMHMmNna7DuXT658rWr1hRn9IaQpdGBEiWuCSKX/hh3wYWhgNJQIyppkd2Qc+CXnvoLHi09j3NnI8bUuKg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Application\\GymManagement.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ECR_EXCALIBUR_G770\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\ECR_EXCALIBUR_G770\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\ECR_EXCALIBUR_G770\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\ECR_EXCALIBUR_G770\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ECR_EXCALIBUR_G770\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\ECR_EXCALIBUR_G770\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\ECR_EXCALIBUR_G770\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

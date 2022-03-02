@@ -23,7 +23,6 @@ namespace GymManagement.Infrastructure.Contexts
         public DbSet<Member> Members { get; set; }
         public DbSet<Mission> Missions { get; set; }
         public DbSet<Trainer> Trainers { get; set; }
-        public DbSet<Worker> Workers { get; set; }
         public DbSet<WorkerContract> WorkerContracts { get; set; }
     }
 }
