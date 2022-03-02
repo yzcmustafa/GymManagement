@@ -13,5 +13,6 @@ namespace GymManagement.Application.Interfaces.ServiceInterfaces
         List<CampaignQueryViewModel> GetAll(); // kullanıcıya gösterilecek entityler için query
         bool Create(CampaignCommandViewModel model); // kullanıcıyanın değiştirebeileceği entityler için query
         bool Delete(CampaignCommandViewModel model);
+        bool Delete(int id);
     }
 }

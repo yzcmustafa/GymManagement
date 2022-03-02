@@ -39,6 +39,17 @@ namespace GymManagement.Application.Services
             throw new NotImplementedException();
         }
 
+        public bool Delete(int id)
+        {
+            var campaign = _unitOfWork.Campaigns.GetById(id);
+            _unitOfWork.Campaigns.Delete(campaign);
+            if (_unitOfWork.SaveChanges() == true)
+            {
+                return true;
+            }
+            return false;
+        }
+
         public List<CampaignQueryViewModel> GetAll()
         {
             var campaigns = _unitOfWork.Campaigns.GetAll();
