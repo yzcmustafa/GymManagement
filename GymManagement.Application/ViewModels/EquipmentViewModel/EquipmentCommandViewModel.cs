@@ -13,5 +13,6 @@ namespace GymManagement.Application.ViewModels.EquipmentViewModel
         //public DateTime MaintenancePeriodMounth { get; set; }
         public byte Duration { get; set; }
         public bool IsActive { get; set; }
+        public int TrainerId { get; set; }
     }
 }

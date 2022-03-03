@@ -1,3 +1,5 @@
+using GymManagement.Application.DependencyContainer;
+using GymManagement.Infrastructure.Contexts;
 using GymManagement.Infrastructure.DependencyContainer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -23,12 +25,15 @@ namespace GymManagement.WebAPI
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services, IConfiguration configuration)
+        public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAplicationServices();
 
             services.AddControllers();
 
-            services.AddInfrastructureServices(configuration);
+            services.AddInfrastructureServices(Configuration);
+
+            //services.AddDbContext<GymManagementDbContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

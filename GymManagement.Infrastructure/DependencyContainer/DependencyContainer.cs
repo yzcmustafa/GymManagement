@@ -23,7 +23,6 @@ namespace GymManagement.Infrastructure.DependencyContainer
             services.AddScoped<IEquipmentRepository, EquipmentRepository>();
             services.AddScoped<IExerciseProgramRepository, ExerciseProgramRepository>();
             services.AddScoped<IManagerRepository, ManagerRepository>();
-            services.AddScoped<IMemberRepository, MemberRepository>();
             services.AddScoped<IMissionRepository, MissionRepository>();
             services.AddScoped<ITrainerRepository, TrainerRepository>();
             services.AddScoped<IWorkerContractRepository, WorkerContractRepository>();

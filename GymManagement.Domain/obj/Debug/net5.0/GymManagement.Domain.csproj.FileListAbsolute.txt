@@ -1,0 +1,12 @@
+C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymManagement.Domain\bin\Debug\net5.0\GymManagement.Domain.deps.json
+C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymManagement.Domain\bin\Debug\net5.0\GymManagement.Domain.dll
+C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymManagement.Domain\bin\Debug\net5.0\ref\GymManagement.Domain.dll
+C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymManagement.Domain\bin\Debug\net5.0\GymManagement.Domain.pdb
+C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymManagement.Domain\obj\Debug\net5.0\GymManagement.Domain.csproj.AssemblyReference.cache
+C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymManagement.Domain\obj\Debug\net5.0\GymManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymManagement.Domain\obj\Debug\net5.0\GymManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymManagement.Domain\obj\Debug\net5.0\GymManagement.Domain.AssemblyInfo.cs
+C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymManagement.Domain\obj\Debug\net5.0\GymManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymManagement.Domain\obj\Debug\net5.0\GymManagement.Domain.dll
+C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymManagement.Domain\obj\Debug\net5.0\ref\GymManagement.Domain.dll
+C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymManagement.Domain\obj\Debug\net5.0\GymManagement.Domain.pdb

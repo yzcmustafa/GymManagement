@@ -24,6 +24,9 @@ namespace GymManagement.Application.Services
         public bool Create(EquipmentCommandViewModel model)
         {
             var equipments = _mapper.Map<Equipment>(model);
+
+            equipments.MaintenancePeriodMounth = equipments.CreatedDate.AddMonths(model.Duration);
+
             _unitOfWork.Equipments.Create(equipments);
             if (_unitOfWork.SaveChanges() == true)
             {
@@ -61,6 +64,7 @@ namespace GymManagement.Application.Services
         {
             var equipments = _unitOfWork.Equipments.GetById(id);
             var eModel = _mapper.Map<Equipment>(model);
+            equipments.MaintenancePeriodMounth = equipments.CreatedDate.AddMonths(model.Duration);
             _unitOfWork.Equipments.Update(eModel);
             if (_unitOfWork.SaveChanges() == true)
             {
