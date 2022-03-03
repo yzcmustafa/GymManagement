@@ -34,15 +34,31 @@ namespace GymManagement.Application.Services
             return false;
         }
 
-        public bool Delete(CampaignCommandViewModel model)
+        public bool Update(CampaignCommandViewModel model, int id)
         {
-            throw new NotImplementedException();
+            var campaing = _unitOfWork.Campaigns.GetById(id);
+            if (campaing == null)
+            {
+                throw new InvalidOperationException("Campaign is not found");
+            }
+            var vmModel = _mapper.Map<Campaign>(model);
+            _unitOfWork.Campaigns.Update(vmModel);
+            if (_unitOfWork.SaveChanges() == true)
+            {
+                return true;
+            }
+            return false;
         }
 
         public bool Delete(int id)
         {
             var campaign = _unitOfWork.Campaigns.GetById(id);
-            _unitOfWork.Campaigns.Delete(campaign);
+            if (campaign == null)
+            {
+                throw new InvalidOperationException("Campaign is not found");
+            }
+            campaign.IsDeleted = true;
+            _unitOfWork.Campaigns.Update(campaign);
             if (_unitOfWork.SaveChanges() == true)
             {
                 return true;

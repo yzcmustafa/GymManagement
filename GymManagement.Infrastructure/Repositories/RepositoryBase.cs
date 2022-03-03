@@ -32,17 +32,17 @@ namespace GymManagement.Infrastructure.Repositories
 
         public List<T> Get(Expression<Func<T, bool>> filter = null)
         {
-            return _context.Set<T>().Where(filter).ToList();
+            return _context.Set<T>().Where(filter).Where(t => t.IsDeleted == false).ToList();
         }
 
         public List<T> GetAll()
         {
-            return _context.Set<T>().ToList();
+            return _context.Set<T>().Where(t=>t.IsDeleted == false).ToList();
         }
 
         public T GetById(int id)
         {
-            return _context.Set<T>().SingleOrDefault(p => p.Id == id);
+            return _context.Set<T>().Where(t => t.IsDeleted == false).SingleOrDefault(p => p.Id == id);
         }
 
         public void Update(T entity)
