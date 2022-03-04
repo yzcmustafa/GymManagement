@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ECR_EXCALIBUR_G770\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ECR_EXCALIBUR_G770\\.nuget\\packages"
+    ]
+  }
+}

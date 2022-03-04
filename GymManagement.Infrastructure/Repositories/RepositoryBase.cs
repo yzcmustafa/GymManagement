@@ -1,6 +1,7 @@
 ﻿using GymManagement.Application.Interfaces.Repositories;
 using GymManagement.Domain.Entities;
 using GymManagement.Infrastructure.Contexts;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -42,7 +43,7 @@ namespace GymManagement.Infrastructure.Repositories
 
         public T GetById(int id)
         {
-            return _context.Set<T>().Where(t => t.IsDeleted == false).SingleOrDefault(p => p.Id == id);
+            return _context.Set<T>().AsNoTracking().Where(t => t.IsDeleted == false).SingleOrDefault(p => p.Id == id);
         }
 
         public void Update(T entity)

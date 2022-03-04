@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GymManagement.Application.Interfaces.ServiceInterfaces
 {
-    interface ICampignService
+    public interface ICampignService
     {
         CampaignQueryViewModel GetById(int id);
         List<CampaignQueryViewModel> GetAll(); // kullanıcıya gösterilecek entityler için query

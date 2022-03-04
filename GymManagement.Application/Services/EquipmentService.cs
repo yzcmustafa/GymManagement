@@ -64,6 +64,7 @@ namespace GymManagement.Application.Services
         {
             var equipments = _unitOfWork.Equipments.GetById(id);
             var eModel = _mapper.Map<Equipment>(model);
+            eModel.Id = id;
             equipments.MaintenancePeriodMounth = equipments.CreatedDate.AddMonths(model.Duration);
             _unitOfWork.Equipments.Update(eModel);
             if (_unitOfWork.SaveChanges() == true)
