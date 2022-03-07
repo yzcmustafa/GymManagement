@@ -32,7 +32,6 @@ C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymMangement.WebApi\bin\Debug\
 C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymMangement.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymMangement.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymMangement.WebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymMangement.WebApi\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymMangement.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymMangement.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymMangement.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -75,3 +74,4 @@ C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymMangement.WebApi\obj\Debug\
 C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymMangement.WebApi\obj\Debug\net5.0\ref\GymMangement.WebApi.dll
 C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymMangement.WebApi\obj\Debug\net5.0\GymMangement.WebApi.pdb
 C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymMangement.WebApi\obj\Debug\net5.0\GymMangement.WebApi.genruntimeconfig.cache
+C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymMangement.WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

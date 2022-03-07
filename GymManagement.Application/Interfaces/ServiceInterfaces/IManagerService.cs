@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace GymManagement.Application.Interfaces.ServiceInterfaces
 {
-    interface IManagerService
+    public interface IManagerService
     {
+
     }
 }
