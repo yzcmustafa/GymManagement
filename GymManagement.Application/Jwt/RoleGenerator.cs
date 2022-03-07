@@ -15,17 +15,17 @@ namespace GymManagement.Application.Jwt
             _roleManager = roleManager;
         }
 
-        public async void CreateRole()
+        public void CreateRole()
         {
             string[] roleNames = { "Admin", "Manager", "Trainer", "Member" };
 
             foreach (var role in roleNames)
             {
-                var roleExist = await _roleManager.RoleExistsAsync(role);
+                var roleExist = _roleManager.RoleExistsAsync(role);
 
-                if (!roleExist)
+                if (!roleExist.Result)
                 {
-                    await _roleManager.CreateAsync(new IdentityRole(role));
+                    _roleManager.CreateAsync(new IdentityRole(role));
                 }
             }
         }

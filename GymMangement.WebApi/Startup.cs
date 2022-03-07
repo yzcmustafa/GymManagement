@@ -34,8 +34,8 @@ namespace GymMangement.WebApi
             services.AddInfrastructureServices(Configuration);
 
             services.AddScoped<ICampignService, CampaignService>();
-
             services.AddScoped<IEquipmentService, EquipmentService>();
+            services.AddScoped<IAuthService, AuthService>();
 
             services.AddControllers();
 
@@ -56,6 +56,8 @@ namespace GymMangement.WebApi
             }
 
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
