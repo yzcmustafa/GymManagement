@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using FluentValidation;
 using GymManagement.Application.Interfaces.ServiceInterfaces;
 using GymManagement.Application.Interfaces.UnitOfWorks;
+using GymManagement.Application.Validations;
 using GymManagement.Application.ViewModels.EquipmentViewModel;
 using GymManagement.Domain.Entities;
 using System;
@@ -23,6 +25,9 @@ namespace GymManagement.Application.Services
 
         public bool Create(EquipmentCommandViewModel model)
         {
+            var validator = new EquipmentValidator();
+            validator.ValidateAndThrow(model);
+
             var equipments = _mapper.Map<Equipment>(model);
 
             equipments.MaintenancePeriodMounth = equipments.CreatedDate.AddMonths(model.Duration);

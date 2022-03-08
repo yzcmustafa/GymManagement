@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "l/n1W7nJ/bIu2JrCVSxW/CQ6je3+0GKY7ZrnJt/xZEuaJ55KR79nseHUemhGY+NkC5Chs0S6LViATPz4hFMb8w==",
+  "dgSpecHash": "iiVde2csf0GR6ccxMGZirk1pe5jLraFvxjd2obJ8hm6dkYa2W/Vgjh7RWcUrusObG2NWEqRd4L+YYwFpna7sWw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\GymManagement\\GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ECR_EXCALIBUR_G770\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\ECR_EXCALIBUR_G770\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\ECR_EXCALIBUR_G770\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\ECR_EXCALIBUR_G770\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ECR_EXCALIBUR_G770\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\ECR_EXCALIBUR_G770\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

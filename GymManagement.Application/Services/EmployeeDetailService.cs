@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using FluentValidation;
 using GymManagement.Application.Interfaces.ServiceInterfaces;
 using GymManagement.Application.Interfaces.UnitOfWorks;
+using GymManagement.Application.Validations;
 using GymManagement.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -22,6 +24,9 @@ namespace GymManagement.Application.Services
         }
         public bool Create(EmployeeDetail model)
         {
+            var validator = new EmployeeDetailValidator();
+            validator.ValidateAndThrow(model);
+
             _unitOfWork.EmployeeDetails.Create(model);
             if (_unitOfWork.SaveChanges() == true)
             {
@@ -49,6 +54,9 @@ namespace GymManagement.Application.Services
 
         public bool Update(EmployeeDetail model, int id)
         {
+            var validator = new EmployeeDetailValidator();
+            validator.ValidateAndThrow(model);
+
             var employeeDetail = _unitOfWork.EmployeeDetails.GetById(id);
             _unitOfWork.EmployeeDetails.Update(model);
 

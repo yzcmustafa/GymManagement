@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
+using FluentValidation;
 using GymManagement.Application.Interfaces.Repositories;
 using GymManagement.Application.Interfaces.ServiceInterfaces;
 using GymManagement.Application.Interfaces.UnitOfWorks;
+using GymManagement.Application.Validations;
 using GymManagement.Application.ViewModels.CampaignViewModel;
 using GymManagement.Domain.Entities;
 using System;
@@ -25,6 +27,9 @@ namespace GymManagement.Application.Services
 
         public bool Create(CampaignCommandViewModel model)
         {
+            var validator = new CampaignValidator();
+            validator.ValidateAndThrow(model);
+
             var campaing = _mapper.Map<Campaign>(model);
             _unitOfWork.Campaigns.Create(campaing);
             if (_unitOfWork.SaveChanges() == true)

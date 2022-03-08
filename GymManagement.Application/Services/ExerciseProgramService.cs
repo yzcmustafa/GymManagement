@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using FluentValidation;
 using GymManagement.Application.Interfaces.ServiceInterfaces;
 using GymManagement.Application.Interfaces.UnitOfWorks;
+using GymManagement.Application.Validations;
 using GymManagement.Application.ViewModels.ExerciseProgramViewModel;
 using GymManagement.Domain.Entities;
 using System;
@@ -23,6 +25,8 @@ namespace GymManagement.Application.Services
         }
         public bool Create(ExerciseCommandViewModel model)
         {
+            var validator = new ExerciseProgramValidator();
+            validator.ValidateAndThrow(model);
             throw new NotImplementedException();
         }
 

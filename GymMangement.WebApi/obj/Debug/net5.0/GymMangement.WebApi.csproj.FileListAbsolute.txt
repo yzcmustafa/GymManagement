@@ -75,3 +75,4 @@ C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymMangement.WebApi\obj\Debug\
 C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymMangement.WebApi\obj\Debug\net5.0\GymMangement.WebApi.pdb
 C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymMangement.WebApi\obj\Debug\net5.0\GymMangement.WebApi.genruntimeconfig.cache
 C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymMangement.WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ECR_EXCALIBUR_G770\Desktop\GymManagement\GymMangement.WebApi\bin\Debug\net5.0\FluentValidation.dll
