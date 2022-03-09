@@ -1,3 +1,7 @@
+using GymManagement.Application.DependencyContainer;
+using GymManagement.Application.Interfaces.ServiceInterfaces;
+using GymManagement.Application.Services;
+using GymManagement.Infrastructure.DependencyContainer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -23,6 +27,13 @@ namespace GymManagement.UI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddAplicationServices();
+            services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            services.AddInfrastructureServices(Configuration);
+
+            services.AddScoped<ICampignService, CampaignService>();
+            services.AddScoped<IEquipmentService, EquipmentService>();
+            services.AddScoped<IAuthService, AuthService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
